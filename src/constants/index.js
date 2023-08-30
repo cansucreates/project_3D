@@ -17,6 +17,10 @@ import {
   docker,
   meta,
   starbucks,
+  iu,
+  second,
+  pau,
+  localeat,
   tesla,
   shopify,
   carrent,
@@ -46,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Node JS Developer",
     icon: mobile,
   },
   {
@@ -54,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Game Developer",
     icon: creator,
   },
 ];
@@ -77,28 +81,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -116,55 +104,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Economics",
+    company_name: "Pamukkale University",
+    icon: pau,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2011 - ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Studied core economics and business concepts including micro and macro economics, accounting, marketing, management, and finance. The curriculum provided a strong foundation in economic theory.",
+      "Took courses fully in English which enhanced my language skills in reading, writing, speaking and listening in a business context.",
+      "Gained hands-on experience through group projects, case studies, and presentations that simulated real-world business situations.",
+      "While I did not complete my economics degree, this education developed my analytical thinking, research skills, and ability to apply economic models to real-world problems.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Computer Programming",
+    company_name: "Istanbul Univerity",
+    icon: iu,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2022 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning core computer science concepts like operating systems, computer networks, and data structures.",
+      "Learning algorithms and data structures using best practices like dynamic programming and hash maps.",
+      "Mastering object-oriented programming principles and design patterns in languages like Python and C#.",
+      "Designing and implementing relational databases and complex SQL queries.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Backend Developer Bootcamp",
+    company_name: "Re:Coded",
+    icon: second,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2023 - Sept 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Re:Coded prepares youth for the future of work by equipping them with the technical and soft skills (such as teamwork and business communication) to thrive as web developers and designers. Immersive bootcamps are highly competitive, with a 5% acceptance rate.",
+      "Completing a five-month immersive coding bootcamp, with 400+ hours of curricula and project-based learning ",
+      "Topics Include Javascript, Node.js, Typescript, Database Technologies, CRUD and Data Models, Authentication and Security, Testing, Architecture, and Cloud.",
+      "Co-creating various responsive web applications from scratch.",
     ],
   },
 ];
@@ -198,12 +173,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Local Eats",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our Website Is An Online Platform Connecting Food Enthusiasts With Talented Local Cooks.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -211,12 +186,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expressJS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: localeat,
+    source_code_link: "https://github.com/jimaa-maya/LocalEats.git",
   },
   {
     name: "Job IT",
