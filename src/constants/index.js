@@ -21,11 +21,13 @@ import {
   second,
   pau,
   localeat,
+  todo,
   tesla,
   shopify,
   carrent,
   jobit,
-  tripguide,
+  ecommerce,
+  cansulogo,
   threejs,
 } from "../assets";
 
@@ -175,7 +177,7 @@ const projects = [
   {
     name: "Local Eats",
     description:
-      "Our Website Is An Online Platform Connecting Food Enthusiasts With Talented Local Cooks.",
+      "Created an innovative online platform that connects food enthusiasts with local cooks, fostering a vibrant culinary community and enabling convenient access to a diverse range of homemade dishes.",
     tags: [
       {
         name: "javascript",
@@ -194,46 +196,46 @@ const projects = [
     source_code_link: "https://github.com/jimaa-maya/LocalEats.git",
   },
   {
-    name: "Job IT",
+    name: "Awesome To-do",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Crafted a resilient API server designed for efficient Todo management, utilizing Node.js, Express, MongoDB, and Mongoose, offering seamless functionality for task organization and tracking.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "expressJS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://github.com/cansucreates/todo-app",
   },
   {
-    name: "Trip Guide",
+    name: "E-Commerce API",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed and implemented a robust e-commerce backend application using Node.js, Express, MongoDB, and Mongoose, featuring separate admin and customer functionalities.",
     tags: [
       {
-        name: "nextjs",
+        name: "Node",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/cansucreates/E-commerce-API",
   },
 ];
 

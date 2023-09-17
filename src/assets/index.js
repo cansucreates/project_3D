@@ -34,6 +34,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import localeat from "./localeat.png";
+import todo from "./todoapp.png";
+import ecommerce from "./ecommerce.jpg";
+import cansulogo from "./cansulogo.png";
 
 export {
   logo,
@@ -66,6 +69,9 @@ export {
   second,
   pau,
   localeat,
+  todo,
+  ecommerce,
+  cansulogo,
   carrent,
   jobit,
   tripguide,
